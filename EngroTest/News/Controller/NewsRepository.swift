@@ -17,7 +17,7 @@ class NewsRespository: NewsRespositoryProtocol {
     private init() {}
 
     func getNews(date: String, completionHandler: @escaping (Result<NewsModel, TaskError>) -> Void) {
-        let url = APIConstants.baseURL + APIConstants.newsURL + date
+        let url = APIConstants.baseURL + APIConstants.newsHeadlines //+ date + "&to=\(date)"
         let task = HTTPTask()
         task.GET(url: url) { (result: Result<NewsModel, TaskError>) -> Void in
             switch result {

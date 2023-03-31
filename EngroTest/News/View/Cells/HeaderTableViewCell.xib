@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,36 +18,36 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1SJ-gy-I1r">
-                        <rect key="frame" x="100" y="2" width="120" height="40"/>
+                        <rect key="frame" x="0.0" y="7" width="320" height="30"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3as-UH-15E">
-                                <rect key="frame" x="16" y="5" width="88" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3as-UH-15E">
+                                <rect key="frame" x="16" y="0.0" width="288" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="KOf-zA-rSr"/>
+                                    <constraint firstAttribute="height" constant="30" id="50U-dK-Ahx"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" name="lightPink"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="3as-UH-15E" firstAttribute="leading" secondItem="1SJ-gy-I1r" secondAttribute="leading" constant="16" id="0iR-fx-8nI"/>
-                            <constraint firstItem="3as-UH-15E" firstAttribute="centerY" secondItem="1SJ-gy-I1r" secondAttribute="centerY" id="D7a-Gv-p6d"/>
-                            <constraint firstAttribute="trailing" secondItem="3as-UH-15E" secondAttribute="trailing" constant="16" id="d8e-6u-mcw"/>
-                            <constraint firstAttribute="height" constant="40" id="gBq-1M-HkH"/>
-                            <constraint firstAttribute="width" constant="120" id="ka0-9J-dxi"/>
+                            <constraint firstItem="3as-UH-15E" firstAttribute="leading" secondItem="1SJ-gy-I1r" secondAttribute="leading" constant="16" id="Fkm-gg-LjI"/>
+                            <constraint firstItem="3as-UH-15E" firstAttribute="centerY" secondItem="1SJ-gy-I1r" secondAttribute="centerY" id="euI-wa-bIa"/>
+                            <constraint firstAttribute="trailing" secondItem="3as-UH-15E" secondAttribute="trailing" constant="16" id="gRC-Gp-sIx"/>
+                            <constraint firstAttribute="height" constant="30" id="kQD-79-Fiu"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <real key="value" value="20"/>
+                                <real key="value" value="0.0"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="1SJ-gy-I1r" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="eVB-bh-2EL"/>
-                    <constraint firstItem="1SJ-gy-I1r" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zw8-Nm-8jq"/>
+                    <constraint firstItem="1SJ-gy-I1r" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Nsm-Mc-Thd"/>
+                    <constraint firstAttribute="trailing" secondItem="1SJ-gy-I1r" secondAttribute="trailing" id="Qhe-dC-R5A"/>
+                    <constraint firstItem="1SJ-gy-I1r" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jJL-nT-FHn"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -58,9 +57,4 @@
             <point key="canvasLocation" x="139" y="21"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <namedColor name="lightPink">
-            <color red="1" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
 </document>

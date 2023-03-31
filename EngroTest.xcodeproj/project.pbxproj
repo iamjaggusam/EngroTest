@@ -629,7 +629,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2578FWTNK9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EngroTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = EngroTest;
@@ -666,7 +666,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2578FWTNK9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EngroTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = EngroTest;
